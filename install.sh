@@ -559,7 +559,7 @@ then
 else
   # On Linux, support only 64-bit Intel
   if [[ "${UNAME_MACHINE}" == "aarch64" ]]
-#  then
+  then
 #    abort "$(
 #      cat <<EOABORT
 #Homebrew on Linux is not supported on ARM processors.
